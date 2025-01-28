@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" required id="name" />
+        <br>
+        <hr>
+        <label for="email">Email:</label>
+        <input type="email" required id="email" />
+        <br>
+        <hr>
+        <label for="password" >Password:</label>
+        <input type="password"required id="password"/>
+        <hr>
+        <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="Male" >
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        </div>
+        <hr>
+        <div>
+        <label for="interests">Interests:</label>
+        <input type="checkbox" name="sports" id="sports" value="Sports">Sports
+        <input type="checkbox" name="music" id="music" value="Music">Music
+        <input type="checkbox" name="travel" id="travel" value="Travel">Travel
+        </div>
+        <hr>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="brasil">Brasil</option>
+            <option value="london">London</option>
+        </select>
+        <br>
+        <hr>
+        <label for="message">Message:</label>
+        <textarea id="message"  cols="25" rows="5"></textarea><br><hr>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
